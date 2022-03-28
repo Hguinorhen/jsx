@@ -1,0 +1,30 @@
+
+.all{
+   
+  background: #ffffff;
+  box-shadow:0px 25px 30px rgba(39, 2, 2, 0.87);
+  border-radius: 10px; 
+}
+.titlered { 
+    color: rgb(173, 7, 7); 
+    font-size: 40px ; 
+    justify-content: center; 
+    display:  flex;  
+
+} 
+.grid-container {
+   display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;  
+ 
+ 
+}  
+#item {  
+    padding-left: 50px;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+.video { 
+    display: flex; 
+    margin:  auto;
+}
